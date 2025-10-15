@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name = "author" content = "Juan Andres Gualotuña">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículum Vitae - Juan Gualotuña</title>
-
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -16,13 +16,20 @@
 
   <header>
     <h1>Juan Gualotuña</h1>
+
+    <figure>
+
+      <img id = "photo"src = "foto.png" alt = "Foto de Perfil Juan Andrés" width = "200">
+
+    </figure>
     
     <hr>
 
     <nav>
       <ul>
         <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#educación">Educación</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#testimonios">Testimonios</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
@@ -31,80 +38,199 @@
 
   <hr>
 
-  <section id ="sobre-mi">
-    <h2> ¿Quién soy? </h2>
+  <main>
+
+    <section id ="sobre-mi">
+    <h2 class = "subtitle"> ¿Quién soy? </h2>
     <p> Información importante: </p>
-    <br> Tengo 22 años 
+    <br> Tengo 22 años nacido en Quito el 7 de Marzo de 2003
     <br> Soy estudiante activo en la ESPOL 
     <br> Estudio ingenieria en computación
     <br> Aspiro a poder aprender a crear programas con un enfoque profesional, independientes y vender ideas innovadoras al mercado tecnológico
-    <br> No cuento con experiencia por el momento
+    <br> No cuento con experiencia laboral por el momento
+    
 
-  </section>
+    </section>
 
-  <section id="experiencia"> 
+    <section id="educación"> 
 
-    <h3> Experiencia </h3>
+      <h2 class = "subtitle"> Educación </h2>
+      <ul>
+        <li><strong>Estudios realizado:</strong> Egresado como bachiller del colegio Tecnologico Sudamericano </li>
+        <li><strong>Unversidad:</strong> Escuela Superior Politecnica del Litoral </li>
+        <li><strong>Ingresado:</strong> Ingresado en 2022 </li>
+      </ul>
 
-    <p> No cuento con experiencia laboral profesional, por el momento mis únicos proyectos han sido academicos de materias que he visto a lo largo de mi carrera universitaria </p>
+      <p> No cuento con experiencia laboral profesional, por el momento mis únicos proyectos han sido academicos de materias que he visto a lo largo de mi carrera universitaria </p>
 
-  </section>
+    </section>
+
+    <section id = "habilidades">
+      <h2 class = "subtitle"> Habilidades </h2>
+
+      <ul>
+        <br><strong>Lenguajes de programacion utilizados: </strong>
+        <li><strong>Python:</strong> Fundamentos, creacion de programas basicos, scrapping</li>
+        <li><strong>Java:</strong> Programacion Orientada a Objetos, Manejo de Archivos, Aplicacion de Diseno en Software</li>
+        <li><strong>SQL:</strong> Creacion y uso de bases de datos y Querys</li>
+        <li><strong>Html y CSS:</strong> Desarrollo de paginas web</li>
+        <li><strong>Comuniacion:</strong> Tengo buen desempeno al momento de hablar en publico o frente a las personas</li>
+        <li><strong>Idiomas:</strong> Espanol, Ingles y actualmente estudiando Frances</li>
+      </ul>
+
+    </section>
   
+      <!-- Sección de Testimonios -->
+      <section id="referencias">
+        <h2>Testimonios y Refefrencias</h2>
 
-  <main>
+        <article class = "referencias">
+          <p><strong>Veronica Duarte</strong></p>
+        </article>
 
-    <!-- Sección de Testimonios -->
-    <section id="referencias">
-      <h2>Testimonios y Refefrencias</h2>
+        
+          <blockquote>
+            "Juan Andrés es un buen estudiante, demostro un buen desempeño en las materias que vió junto a mí"
+          </blockquote>
 
-      <article>
-       
-        <p><strong>Veronica Duarte</strong>, Profesora de la ESPOL.</p>
-      </article>
-
-      
-        <blockquote>
-          "Juan Andrés es un buen estudiante, demostro un buen desempeño en las materias que vió junto a mí"
-        </blockquote>
-
-      <article>
-   
-        <p><strong>Enrique Silva</strong> Director de Choral Academy.</p>
-
-      </article>
+        <article class = "referencias">
+          <p><strong>Enrique Silva</strong></p>
+        </article>
 
     
-        <blockquote>
-          "Conozco a Juan desde hace mucho tiempo, es una persona muy comprometida, responsable y ha trabajo conmigo en el campo digital"
-        </blockquote>
-      
+          <blockquote>
+            "Conozco a Juan desde hace mucho tiempo, es una persona muy comprometida, responsable y ha trabajo conmigo en el campo digital"
+          </blockquote>
 
+        <article class = "referencias">
+          <p><strong>Valentin Hidalgo</strong></p>
+        </article>
+
+          <blockquote>
+            "Juan Andrés siempre fue un estudiante destacado en el colegio, logra adaptarse y aprender de manera rapida con una buena guia"
+          </blockquote>
+
+        <article class = "referencias">
+          <p><strong>Federico Teran</strong></p>
+        </article>
+
+          <blockquote>
+            "Juan Andres trabajo conmigo en su periodo de vacaciones en mi local de hamburguesas, siempre mostro una actitud pro-activa, disciplinada y muy responsableen su trabajo, siempre daba mas sobre si mismo"
+          </blockquote>
+
+      <table>
+        <tr>
+
+          <th> Nombre</th>
+          <th> Cargo</th>
+          <th> Descripcion</th>
+
+        </tr>
+        <tr>
+
+          <th> Veronica Duarte </th>
+          <td> Profesora de la Facultad de ingenieria en Electricidad y Computación (FIEC) </td>
+          <td> Magister y Profesora</td>
+
+        </tr>
+        <tr>
+
+          <th> Enrique Silva </th>
+          <td> Director coral y fundador de la Academia Chorla Academy ESG </td>
+          <td> Magister en direccion coral</td>
+
+        </tr>
+        <tr>
+
+          <th> Valentin Hidalgo </th>
+          <td> Coordinador, tutor y maestro del colegio Tecnologico Sudamericano </td>
+          <td> Licenciado y profesor </td>
+
+        </tr>
+        <tr>
+
+          <th> Fedeico Teran </th>
+          <td> Cocinero y creador de local de hamburgues Fede's Burger </td>
+          <td> Chef Profesional y jefe </td>
+
+        </tr>
+
+      </table>
+      
     </section>
 
     <section id="contacto">
 
-      <h4> Contactos </h4>
+      <h2 class = "subtitle"> Contactos </h2>
 
       <p> Puedes contactarme por estos medios: </p>
 
       <br><strong>Correo institucional:</strong> jgualotu@espol.edu.ec
-      <br> Página oficial de GitHub: *inserte link* 
+      <br><strong>Página oficial de GitHub:</strong> https://github.com/JGAndrade03 
 
     </section>
 
-    <form>
-     <label> ... </label>
-     <input ... >
+    <section id ="Formulario">
 
-     <label> ... </label>
-     <select ... > ... </select>
+      <h2 class = "subtitle"> Formulario de Contacto </h2>
 
-     <fieldset> ... <fieldset>
+        <form action="/enviar" method="post">
+          <label for="Nombre"> Nombre: </label>
+          <input type="text" id = "nombre" name = "nombre" required >
 
-     <button> ... </button>
-</form>
+          <label for = "asunto"> Asunto> </label>
+          <select id = "asunto" name = "asunto" required >
+
+            <option value="consulta"> Consulta </option>
+            <option value="propuesta"> Propuesta </option>
+            <option value="otro"> Otro </option>
+
+          </select>
+
+          <fieldset>
+            <legend> Intereses de servicio </legend>
+            <input type="radio" id = "wed" name = "interes" value = "web" required>
+            <label for = "web"> Desarrollo web</label>
+
+            <input type="radio" id = "app" name = "interes" value = "web" required>
+            <label for = "web"> Creacion de Aplicaciones</label>
+
+            <input type="radio" id = "trabajoRemoto" name = "interes" value = "web" required>
+            <label for = "web"> Trabajos Remotos</label>
+
+            <input type="radio" id = "otro" name = "interes" value = "web" required>
+            <label for = "web"> Otro</label>
+   
+          </fieldset>
+
+          <label for = "habilidades"> Habilidades que deseas destacar: </label>
+            <fieldset>
+                    <legend>Selecciona tus habilidades:</legend>
+                    <label>
+                    <input type="checkbox" name="habilidades[]" value="Python">
+                    Python
+                    </label>
+                    <label>
+                    <input type="checkbox" name="habilidades[]" value="Java">
+                     Java
+                    </label>
+                    <label>
+                    <input type="checkbox" name="habilidades[]" value="SQL">
+                    SQL
+                    </label>
+            </fieldset>
+
+          <label for = "mensaje"> Mensaje: </label>
+          <textarea id = "mensaje" name = "mensaje" rows = "5" required></textarea>
+
+          <button type = "submit"> Enviar </button>
+        </form>
+
+    </section>
+
 
   </main>
+
 
   <footer>
     <p>&copy; 2025 Juan Andrés. Todos los derechos reservados.</p>

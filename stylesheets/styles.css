@@ -24,7 +24,7 @@ h1 {
 .subtitle {
 
     /* Color del texto en rgba */
-    color: rgb(151 156 165 / 0.89);
+    color: rgba(0, 0, 0, 0.89);
 
     /* Transformación del texto a mayúsculas */
     text-transform: uppercase;
@@ -43,7 +43,7 @@ footer p {
 nav > ul {
 
     /* Eliminar los estilos de lista predeterminados */
-    display: flex;
+    display: grid;
     justify-content: space-between;
     list-style: none;
     flex-direction: row;
@@ -95,7 +95,7 @@ section> form {
 #referencias > article {
 
      /* Distribuye equitativamente los artículos en tres columnas */
-     flex: 1 1 calc(33.333% - 1rem);
+     grid: 1 1 calc(33.333% - 1rem);
 
 }
 
